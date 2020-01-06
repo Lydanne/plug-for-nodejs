@@ -16,7 +16,7 @@
 ### 第一步、下载
 
 ```bash
-git clone https://github.com/holleworldabc/plug-in_for_node/
+git clone https://github.com/holleworldabc/plug-for-nodejs
 # 下载插件包，或者你可以手动下载
 # 将包里的文件upload-image-rom.js复制到你的工作目录
 ```
@@ -27,7 +27,7 @@ git clone https://github.com/holleworldabc/plug-in_for_node/
 const uploadImage = require('xx/upload-image-rom');
 
 uploadImage({
-            url:"",//请求的图片地址
+            url:"",//请求的图片地址，可以是本地图片
             headers:{}//请求自定义头，可以不填
 }).then(src=>{
     console.log(src);//图片的临时链接
@@ -36,4 +36,4 @@ uploadImage({
 
 ## 作者
 
-刘欢/mark
+mark
