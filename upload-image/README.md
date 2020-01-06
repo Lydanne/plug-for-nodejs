@@ -19,7 +19,7 @@
 git clone https://github.com/holleworldabc/plug-for-nodejs
 # 下载插件包，或者你可以手动下载
 # 将包里的文件upload-image-rom.js复制到你的工作目录
-npm install -S chreeio request
+npm install -S cheerio request
 # 安装依赖
 ```
 
